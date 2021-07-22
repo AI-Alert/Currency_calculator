@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             Elements elements_from_table = our_table.children();
 //            Element dollar = elements_from_table.get(0);
 //            Elements dollar_elements = dollar.children();
-            Log.d("MyLog","div size : " + our_table.childrenSize() );
+            Log.d("MyLog","div size   : " + our_table.childrenSize() );
             for(int i = 0;i < our_table.childrenSize();i++ )
             {
                 ListItemClass items = new ListItemClass();
