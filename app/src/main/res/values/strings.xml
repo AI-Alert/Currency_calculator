@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">Конвертер валют</string>
+    <string name="textview" translatable="false">TextView</string>
+</resources>
