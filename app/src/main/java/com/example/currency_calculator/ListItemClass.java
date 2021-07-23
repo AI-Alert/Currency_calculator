@@ -1,4 +1,5 @@
 package com.example.currency_calculator;
+
 public class ListItemClass {
     String data_1;
     String data_2;
@@ -36,4 +37,5 @@ public class ListItemClass {
     public void setData_4(String data_4) {
         this.data_4 = data_4;
     }
+
 }

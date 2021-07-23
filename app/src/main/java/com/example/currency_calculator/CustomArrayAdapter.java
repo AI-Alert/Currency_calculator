@@ -4,9 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
@@ -21,7 +19,6 @@ public class CustomArrayAdapter extends ArrayAdapter<ListItemClass> {
         super(context, resource, listItem);
         this.inflater = inflater;
         this.listItem = listItem;
-
     }
 
     @NonNull
@@ -37,6 +34,7 @@ public class CustomArrayAdapter extends ArrayAdapter<ListItemClass> {
             viewHolder.data3 = convertView.findViewById(R.id.tvData3);
             viewHolder.data4 = convertView.findViewById(R.id.tvData4);
             convertView.setTag(viewHolder);
+
         }
         else
         {
